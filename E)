@@ -1,0 +1,8 @@
+float Vector[4];
+float F;
+F = A+B+C+D+E/5;
+if(V[0]>F){cout<<"A>"<<endl;}else cout<<"<A"<<endl;
+if(V[1]>F){cout<<"B>"<<endl;}else cout<<"<B"<<endl;
+if(V[2]>F){cout<<"C>"<<endl;}else cout<<"<C"<<endl;
+if(V[3]>F){cout<<"D>"<<endl;}else cout<<"<D"<<endl;
+if(V[4]>F){cout<<"E>"<<endl;}else cout<<"<E"<<endl;
