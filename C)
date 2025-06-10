@@ -1,0 +1,12 @@
+int A;
+int B;
+int V[2];
+V[0] = V[0] * 2;
+V[1] = V[1] * 2;
+V[2] = V[2] * 2;
+cout<<"inserte una variable y luego la posición en el vector a colocar"<<endl;
+cin>>A;
+cin>>B;
+V[B]=A;
+while(i<3){
+if(V[i]==0){V[i]=1,i++}
