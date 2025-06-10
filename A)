@@ -1,3 +1,4 @@
+int A;
 int V[4];
 cin>>V[0];
 cin>>V[1];
