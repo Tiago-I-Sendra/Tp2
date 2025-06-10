@@ -1,0 +1,5 @@
+int A;
+int V[1]
+A = V[0] + V[1];
+A = A/2;
+cout<<"el promedio es"<<A<<endl;
