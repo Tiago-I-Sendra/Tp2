@@ -1,0 +1,30 @@
+int i = 0;
+int Z = 0;
+int V[9];
+
+cin>>V[1];
+cin>>V[2];
+cin>>V[3];
+cin>>V[4];
+cin>>V[5];
+cin>>V[6];
+cin>>V[7];
+cin>>V[8];
+cin>>V[9];
+
+while(i<9){
+if(V[i]>=V[0]){Z=Z+1}
+if(V[i]>=V[1]){Z=Z+1}
+if(V[i]>=V[2]){Z=Z+1}
+if(V[i]>=V[3]){Z=Z+1}
+if(V[i]>=V[4]){Z=Z+1}
+if(V[i]>=V[5]){Z=Z+1}
+if(V[i]>=V[6]){Z=Z+1}
+if(V[i]>=V[7]){Z=Z+1}
+if(V[i]>=V[8]){Z=Z+1}
+if(V[i]>=V[9]){Z=Z+1}
+if(Z>1 && Z<10){i=0;Z = 0;}
+else{cout<<V[i]<<endl;}
+}
+
+}
